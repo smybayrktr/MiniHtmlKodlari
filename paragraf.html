@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <style>
+            p{
+                /*PARAGRAF ÖZELLİKLERİ */
+                text-indent: 30px; /*Satırın girintisi ayarlar. */
+                text-align: center; /*Paragrafı ortalar. */
+                text-align: end; /*paragrafı sağa yaslar. */
+                line-height: 30px; /*Satırlar arası mesafeyi ayarlar. */
+                /*Metin Özellikleri */
+                font-family: Verdana, Geneva, Tahoma, sans-serif; /*Yazı tipidir */
+                color: cadetblue; /* Yazı rengini ayarlar. */
+                font-size: x-large; /*Yazının büyüklüğünü (boyutunu) ayarlar. */
+                font-weight: 100px; /*Yazının kalınlığını ayarlar. */
+                font-style: italic; 
+                font-variant: small-caps ; /*hepsini büyük harfe geçirdi küçük şekilde */
+                text-transform: uppercase; /*Tüm kelimeleri büyük harf yapar*/
+                text-decoration:underline; /*Metinlerin altını çizer. */
+                letter-spacing: 2px; /*harfler arası mesafe ayarlar. */
+                word-spacing: 10px; /* Kelimeler arası mesafe ayarlar.*/
+            }
+            .metin{
+                color: black;
+                font-size: x-small;
+                font-family: serif;
+                font-style: inherit;
+                background-color:rgb(119, 119, 185);
+                background-image: url("/resimler/resim2.jpg");
+                background-size: 200px;
+                background-position:center ;
+                background-repeat: no-repeat;
+                width: 200px;
+                height: 200px;
+            }
+
+        </style>
     </head>
     <body>
-        <h1>Başlık</h1>
-        <p id="p1"class ="p1c" style="color: cadetblue;">wsdfgnfdsxaz <br>dsfbnfbfbfb <br>egbfbfbdb</p>
-        <p id="p2" style="color: darkorchid;"> fghjklş </p>
-   </body>
+    <h1>Paragraf Özellikleri</h1> 
+    <p>Bu bir metindir</p>
+    <p class="metin">Bu bir metindir. PARAGRAFFFFF jvjvjjvjvjjv</p>    
+    <p>Bu bir metindir dimi dimi........</p>
+    <p>asdfghjklşişlkjhgfdfkjkfjfkdjfjfjdjf
+        jdjfjjfjfasdfghjklşişlkjhgfdfkjkfjf
+        kdjfjfjdjfjdjfjjfjf
+        asdfghjklşişl kjhgfdfkjkfjfkdj fjfjdjfj djfjjfjf
+        asdfghjklşişlkjh gfdfkjkfj fkdjfjf jdjfjdj fjjfjf
+        asdfghjkl  şişlkjhgfdfkjkfjfk djfjfjdjf jdjfjjfjf
+        asdfghjkl şişlkjhgfdfkj kfj fkdjfjfjdjfjdjf jjfjf
+        asdfghjklşişlkjhgfdfkjkfjfkdjfjfj djfjdjfjjfjf
+        asdf ghjklşi şlkjhgfdfk jkfjfkdjfjfjdjfjdjfjjfjf
+        asdfghjklşi şlkjhgfdfkjkfjfkd jfjfjdjfjdjfjjfjf</p>
+    </body>
 </html>

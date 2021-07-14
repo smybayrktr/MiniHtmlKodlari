@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #altmenu{
+                background-color:darkslategray;
+                border-style: dashed;
+                border-width: 1px;
+                border-color:indigo;
+                width: 500px;
+                height: 30px;
+                margin: auto;
+                text-align: center;
+                padding: 15px;
+                color: lightslategrey;
+            }
+            a{ /*Linklere css uygulamak için kullanılır. */
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                color: lightyellow;
+                text-decoration: none; /*Linklerin altındaki çizgiyi kaldırır. */
+            }
+            a:link{
+                color: midnightblue; /*Ziyaret edilmemiş renkler bu renk olsun dedik. */
+
+            }
+            a:visited{
+                color: olive; /*Ziyaret edilen linkler bu renk olacak */
+            }
+            a:hover{
+                color:red; /*Fare link üzerine gelince peru rengi
+                 olup altına çizgi gelsin fontu değişsin dedik */
+                text-decoration: underline;
+                font-size: 14px;
+            }
+            a:active{
+                color: plum; /*Link aktif olunca da plum rengi olsun dedik. */
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav id="altmenu">
+        <a href="index.html">Anasayfa</a> |
+        <a href="urunlerimiz.html">Ürünlerimiz</a> |
+        <a href="bizkimiz.html">Biz kimiz</a> |
+        <a href="iletisim.html">İletişim</a>
+        </nav>
+    </body>
+</html>
